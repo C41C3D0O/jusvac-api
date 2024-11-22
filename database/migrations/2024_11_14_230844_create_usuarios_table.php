@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table -> string("nombre",50);
             $table -> string("correo",50);
+            $table -> string("cedula",50);
             $table -> string("contrasena",50);
             $table->timestamps();
         });

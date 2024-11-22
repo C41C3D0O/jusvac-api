@@ -15,6 +15,7 @@ class Usuarios extends Model
 
         'nombre',
         'correo',
+        'cedula',
         'contrasena'
 
     ];
