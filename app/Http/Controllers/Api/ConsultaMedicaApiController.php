@@ -16,7 +16,7 @@ class ConsultaMedicaApiController extends Controller
     public function index()
     {
         $consultamedica=ConsultaMedica::get();
-        return JsonHttpResponse::successResponse($consultamedica, 'success');
+        return JsonHttpResponse::successResponse([$consultamedica], 'success');
     }
 
     /**

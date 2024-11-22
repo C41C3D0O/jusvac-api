@@ -34,7 +34,7 @@ class UsuarioApiController extends Controller
             "contrasena"=> $request->contrasena
         ]);
 
-        return JsonHttpResponse::successResponse($usuarios, 'creado');
+        return JsonHttpResponse::successResponse([$usuarios], 'creado');
 
     }
 
